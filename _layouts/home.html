@@ -22,13 +22,13 @@ layout: default
               {{ post.title }}
             </a>
           </h1>
-          <p class="meta">
-            {{ post.date | date: "%B %-d, %Y" }}
-          </p>
+          <div class="excerpt">
+            {{ post.description }}
+            <p class="meta">
+              {{ post.date | date: "%B %-d, %Y" }}
+            </p>
+          </div>
         </header>
-        <div class="excerpt">
-          {{ post.content | strip_html | truncate: "250" }}
-        </div>
       </span>
     </div>
     {% endfor %}
