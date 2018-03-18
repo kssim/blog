@@ -58,10 +58,10 @@
       border-radius: 25px;
       overflow: hidden;
 
-      @media (min-width: $break) {
+      @media (min-width: $medium-size) {
         height: 250px;
       } //Smaller screen
-      @media screen and (max-width: $break) {
+      @media screen and (max-width: $medium-size) {
         height: 150px;
       }
     }

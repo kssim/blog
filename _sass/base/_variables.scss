@@ -1,7 +1,18 @@
+// display
+$medium-size: 960px;
+$small-size: 500px;
+
+// font
+$font-size: 7px;
+
+// nav bar
+$nav-image-size: 5px;
+$nav-padding: 2px;
+$nav-margin: 2px;
+
 // Typography
 $font-family-main: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 $font-family-headings: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$font-size: 1.25em;
 
 // Padding
 $padding-large: 7%;
@@ -38,10 +49,6 @@ $feature-image-min-height-large: 400px;
 // Header description box
 $header-desc-background-color: #ffffff;
 $header-desc-text-color: #FFF;
-
-// Mobile display
-$break: 768px;
-$sm-break: 450px;
 
 
 /*  Syntax highlighting  */
