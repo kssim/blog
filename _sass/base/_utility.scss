@@ -1,42 +1,52 @@
 /* Mix-ins */
 // font-size
 %font-size-title {
-  font-size: $font-size * 6.5;
+  font-size: $font-size * 6.8;
   @media (max-width: $medium-size) {
-    font-size: $font-size * 4.5;
+    font-size: $font-size * 5.5;
   }
   @media (max-width: $small-size) {
-    font-size: $font-size * 2.5;
+    font-size: $font-size * 4.2;
   }
 }
 
 %font-size-subtitle {
   font-size: $font-size * 5.5;
   @media (max-width: $medium-size) {
-    font-size: $font-size * 4;
+    font-size: $font-size * 4.2;
   }
   @media (max-width: $small-size) {
-    font-size: $font-size * 2;
+    font-size: $font-size * 3;
   }
 }
 
 %font-size-subject {
   font-size: $font-size * 4.5;
   @media (max-width: $medium-size) {
-    font-size: $font-size * 3.5;
+    font-size: $font-size * 3.2;
   }
   @media (max-width: $small-size) {
-    font-size: $font-size * 1.8;
+    font-size: $font-size * 2.2;
   }
 }
 
 %font-size-content {
   font-size: $font-size * 3.5;
   @media (max-width: $medium-size) {
-    font-size: $font-size * 3;
+    font-size: $font-size * 2.5;
   }
   @media (max-width: $small-size) {
-    font-size: $font-size * 1.6;
+    font-size: $font-size * 1.5;
+  }
+}
+
+%font-size-list {
+  font-size: $font-size * 3.3;
+  @media (max-width: $medium-size) {
+    font-size: $font-size * 2.2;
+  }
+  @media (max-width: $small-size) {
+    font-size: $font-size * 1.2;
   }
 }
 
@@ -75,6 +85,16 @@
   }
 }
 
+// Padding
+%padding-regular {
+  padding: $padding-new-small * 2 $padding-new-large * 2.5;
+  @media (max-width: $medium-size) {
+    padding: $padding-new-small * 1.5 $padding-new-medium * 2;
+  }
+  @media (max-width: $small-size) {
+    padding: $padding-new-small * 0.8 $padding-new-small * 1.5;
+  }
+}
 
 
 
@@ -82,16 +102,6 @@
   padding: $padding-x-small $padding-x-small * 2;
   @media (max-width: 1000px) {
     padding: $padding-x-small $padding-x-small;
-  }
-}
-
-%padding-regular {
-  padding: $padding-small $padding-large;
-  @media (max-width: 1000px) {
-    padding: $padding-small * 1.5 $padding-large / 1.6;
-  }
-  @media (max-width: 576px) {
-    padding: $padding-small;
   }
 }
 
