@@ -3,7 +3,7 @@ layout: post
 title: D-Bus 란?
 description: What is D-Bus?
 original: https://www.freedesktop.org/wiki/Software/dbus/#index1h1
-tags: [변역, D-bus]
+tags: [번역, D-bus]
 ---
 
 # What is D-Bus?
