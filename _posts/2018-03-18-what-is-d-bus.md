@@ -6,7 +6,7 @@ original: https://www.freedesktop.org/wiki/Software/dbus/#index1h1
 tags: [번역, D-bus]
 ---
 
-# What is D-Bus?
+## What is D-Bus?
 D-Bus 는 메시지 버스 시스템입니다. 이 녀석을 이용하면, 다른 어플리케이션과 간단하게 통신할 수 있습니다.  
 그리고, D-Bus 는 프로세스의 Life cycle 관리에도 사용됩니다.  
 예를 들어, 단일 인스턴스 어플리케이션이나 데몬 코드를 작성할 때, D-Bus 를 사용해서 쉽고 안정적으로 만들 수 있습니다.  
