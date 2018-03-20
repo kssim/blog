@@ -10,7 +10,8 @@ layout: default
     </P>
   </header>
   <section class="post-content">{{ content }}</section>
-
+  </br>
+  </br>
   <!-- Tag list -->
   {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
   {% include tags_list.html tags=tag_list %}
