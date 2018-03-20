@@ -59,12 +59,9 @@ h3 {
 }
 
 h4,
+li,
 p {
   @extend %font-size-content;
-}
-
-li {
-  @extend %font-size-list;
 }
 
 

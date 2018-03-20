@@ -40,16 +40,6 @@
   }
 }
 
-%font-size-list {
-  font-size: $font-size * 3.3;
-  @media (max-width: $medium-size) {
-    font-size: $font-size * 2.2;
-  }
-  @media (max-width: $small-size) {
-    font-size: $font-size * 1.2;
-  }
-}
-
 %font-size-small {
   font-size: $font-size * 2.8;
   @media (max-width: $medium-size) {
