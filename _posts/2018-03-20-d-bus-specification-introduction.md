@@ -1,9 +1,10 @@
 ---
 layout: post
 title: D-bus 명세 - 소개
+category: 번역
 description: D-Bus Specification Introduction 
 original: https://dbus.freedesktop.org/doc/dbus-specification.html#introduction 
-tags: [번역, D-bus, Specification]
+tags: [D-bus, Specification]
 ---
 
 ## 소개
