@@ -1,5 +1,6 @@
 baseurl: ""
-url: "https://kssim.github.io"
+url: https://blog.kssim.com
+enforce_ssl: blog.kssim.com
 repository: "kssim/kssim.github.io"
 
 theme_settings:
