@@ -1,7 +1,6 @@
 baseurl: ""
 url: https://blog.kssim.com
 enforce_ssl: blog.kssim.com
-repository: "kssim/kssim.github.io"
 
 theme_settings:
   title: KYEONG-SEOB SIM
