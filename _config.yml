@@ -10,15 +10,16 @@ theme_settings:
 
   header_text:
   header_text_feature_image: assets/img/default/main.jpg
-  footer_text: © Kyeong-Seob Sim / All rights reserved. Since 2018
+  footer_text: © 2018 Kyeong-Seob Sim
 
   rss: true
   email_address: ksub0912@gmail.com
-  github: "kssim"
-  linkedin: https://linkedin.com/in/kssim
+  profile: https://profile.kssim.com
+  github: kssim
+  slideshare: https://www.slideshare.net/ssuser674248 
 
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  katex: true # Enable if using math markup
+  google_analytics:
+  katex: true
   search: true
   tags: true
 
@@ -29,7 +30,6 @@ theme_settings:
   str_previous_post: "Previous post"
   str_next_page: "Next"
   str_previous_page: "Prev"
-  str_continue_reading: "Continue reading"
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
 
   post_navigation: true
