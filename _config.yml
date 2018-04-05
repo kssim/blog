@@ -18,7 +18,7 @@ theme_settings:
   github: kssim
   slideshare: https://www.slideshare.net/ssuser674248 
 
-  google_analytics:
+  google_analytics: UA-116951375-3
   katex: true
   search: true
   tags: true
